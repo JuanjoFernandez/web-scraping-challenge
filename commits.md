@@ -4,3 +4,6 @@
 - Creates Readme, commit and file structure
 - Scraps redplanetscience
 - Scraps spaceimages-mars
+
+# 06/08/2021
+- Scraps MarsFacts

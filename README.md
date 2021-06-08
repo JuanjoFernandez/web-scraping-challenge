@@ -10,4 +10,5 @@ By using beautiful soup, splinter, flask and MongoDB I scrap different webpages 
     - Initial scrap returns only empty results. The page only loads the news content with an onclick event, will use splinter to overcome this
 2. Next, the app retrieves the featured image from Mars from [SpaceImages](https://spaceimages-mars.com/)
 # Repository Structure
+3. Now we retrieve some general facts about Mars from [MarsFacts](https://galaxyfacts-mars.com/)
 
