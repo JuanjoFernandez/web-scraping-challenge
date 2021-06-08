@@ -8,3 +8,4 @@
 # 06/08/2021
 - Scraps MarsFacts
 - Builds html table
+- Removes \n from table
