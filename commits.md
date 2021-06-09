@@ -9,3 +9,6 @@
 - Scraps MarsFacts
 - Builds html table
 - Removes \n from table
+
+# 06/09/2021
+- Scraps hemisphere page
