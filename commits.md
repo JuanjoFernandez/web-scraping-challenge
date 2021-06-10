@@ -14,4 +14,7 @@
 - Scraps hemisphere page
 - Adds for loop for all hemispheres
 - Creates scrapped data dictionary
+
+# 06/10/2021
 - Creates scrape function
+- Creates flask API backbone
