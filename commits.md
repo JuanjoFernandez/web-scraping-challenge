@@ -18,3 +18,4 @@
 # 06/10/2021
 - Creates scrape function
 - Creates flask API backbone
+- Tests for mongo insert succesfull

@@ -12,6 +12,7 @@ By using beautiful soup, splinter, flask and MongoDB I scrap different webpages 
 3. Now we retrieve some general facts about Mars from [MarsFacts](https://galaxyfacts-mars.com/)
 4. Next, it is time to get some cool images from mars, we will scrap [MarsHemispheres](https://marshemispheres.com/index.html) for this
 5. To get the first part done I create a single dictionary that contains all scrapped data, this will allow to use the script as a function and call it whenever we need
+6. For the second part, I need to create a Flask API that scrapes the data and displays it into an html page, for this I converted the jupyter notebook to a python script and declared all the code as part of a function that will run when the API receives the call
 
 # Repository Structure
 
