@@ -12,3 +12,6 @@
 
 # 06/09/2021
 - Scraps hemisphere page
+- Adds for loop for all hemispheres
+- Creates scrapped data dictionary
+- Creates scrape function
