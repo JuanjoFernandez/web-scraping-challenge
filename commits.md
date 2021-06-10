@@ -19,3 +19,5 @@
 - Creates scrape function
 - Creates flask API backbone
 - Tests for mongo insert succesfull
+- Drops Mongo colection if exists
+- Creates index.html template
