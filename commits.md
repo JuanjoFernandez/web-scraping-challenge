@@ -1,3 +1,4 @@
+![header](resources/readme_header.png)
 
 # 06/07/2021
 - Initial commit
@@ -28,3 +29,4 @@
 - Fixes image url
 - Adds format to html
 - Updates readme
+- Updates commits
