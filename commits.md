@@ -25,3 +25,6 @@
 # 06/11/2021
 - Adds featured image and facts table
 - Adds hemisphere image
+- Fixes image url
+- Adds format to html
+- Updates readme
