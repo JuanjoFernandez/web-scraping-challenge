@@ -18,11 +18,11 @@ def home():
 @app.route("/scrape")
 def scraper():
     from scrape_mars import scrape
-    drop_collection = "mars" in db.list_collection_names()
+    drop_collection = "mars" in mongo.db.list_collection_names()
     if drop_collection == True:
-        db.mars.drop()
+        mongo.db.mars.drop()
     data = scrape()
-    db.mars.insert_one(data)
+    mongo.db.mars.insert_one(data)
     return redirect("/", code=302)
 
 if __name__ == "__main__":

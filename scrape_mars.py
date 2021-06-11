@@ -88,7 +88,7 @@ def scrape():
         # Retrieving image link
         for link in img_url.ul.find_all('a'):
             links_list.append(link.get('href'))
-        img_link = 'https://marshemispheres.com/' + links_list[1]
+        img_link = 'https://marshemispheres.com/' + links_list[0]
         
         # Retrieving and formatting title
         title = soup.find('h2', class_='title').get_text()
