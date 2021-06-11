@@ -21,3 +21,6 @@
 - Tests for mongo insert succesfull
 - Drops Mongo colection if exists
 - Creates index.html template
+
+# 06/11/2021
+- Adds featured image and facts table

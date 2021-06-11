@@ -18,15 +18,26 @@
     </div>
 
     <!-- Phone Listings -->
-    <div class="row" id="phone-listings">
+    <div class="row" id="mars_article">
       <div class="col-md-12">
-        <h4 class="heading">{{mars}}</h4>
+        <h4 class="heading">{{mars.latest_news}}</h4>
         <small>{{mars.teaser}}</small>
       </div>
     </div>
-
+    <div class="row" id="featured_image">
+      <div class="col-md-8">
+        <p>Featured Image</p>
+        <img src="{{ mars.featured_image }}">
+      </div>
+      <div class="col-md-4">
+        Mars Facts
+        {{ mars.mars_facts|safe }}
+      </div>
+    </div>
+    <div class="row" id="mars_hemispheres">
+      
+    </div>
   </div>
 </body>
 
 </html>
-
